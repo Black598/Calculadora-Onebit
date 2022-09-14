@@ -1,0 +1,99 @@
+@import url(https://fonts.gogleapis.com/css?familyLato:300,400,700|PT++Mono);
+
+:root {
+    --pri-color: lightcoral;
+    --sec-color: dimgray;
+    --ter-color: gainsboro;
+    --qua-color: #f7f7f7;
+    
+}
+
+body { 
+background-color:var(--pri-color) ;
+font-size: 15px;
+font-family: Lato,sans-serif;
+
+}
+
+
+#Container{
+  
+  height:520px;
+  width:360px;
+  margin:100px auto;
+  background-color:var(--qua-color);
+  padding: 15px;
+  box-shadow: 5px 8px #c1c1c1;
+  border-radius: 25px;
+    
+}
+
+.title{
+
+background-color: var(--ter-color);
+color:#1C1C1C;
+text-transform: uppercase;
+padding:15px ;
+font-size: 10px;
+border-width: 360px;
+height: 25px;
+border-top-left-radius: 25px;
+border-top-right-radius: 25px;
+text-align: center;
+
+}
+
+.tipsform{
+  padding-left: 20px;
+  padding-right: 20px
+}
+
+.forminput{
+
+  width: 45px;
+  padding: 5px 5px 8px 10px;
+  border: 1px solid #838080;
+  border-radius: 5px;
+
+}
+
+.forminput:focus{
+  border: 2px solid #1C1C1C;
+  border-radius: 5px;
+}
+
+.formselect{
+  
+  text-align:left;
+  padding: 5px 5px 8px 8px;
+  width: 180px;
+  border: 1px solid #838080;
+  border-radius: 5px;
+  
+}
+
+.formselect:focus{
+  border: 2px solid #1C1C1C;
+  border-radius: 5px;
+}
+
+
+
+.button{
+  text-transform: uppercase;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 3px 8px #313131;
+  margin: 30px auto;
+  display:block;
+  font-size: 15px;
+
+  
+}
+
+.button:hover{
+
+  background-color: var(--pri-color);
+  box-shadow: 2px 4px #313131;
+
+}

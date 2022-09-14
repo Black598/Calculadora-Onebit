@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="estilos/style.css"
+        <meta charset="UTF-8">
+        <meta name="viewpoer" content="width=device-width, inicial-scale=1;0">
+        <title> CALCULADORA DE GORJETAS </title>
+
+    </head>
+
+    <body >
+        <div id="Container">
+            <div class="title"> 
+                <h1> Calculadora de gorjeta </h1>
+            </div>
+            <div> 
+                <form id="tipsform">
+                    <label for= "Bill">
+                        <p> Quanto ficou a conta? </p>
+                    </label>
+                    <p> 
+                        R$ <input type="text" inputmode="numeric" placeholder="100,00" name="Bill" id="Bill" class="forminput">
+                    </p>
+                    <label for="ServiceQual">
+                        <p>  Como foi seu serviço? </p>
+                    </label>
+                    <p>
+                        <select name="ServiceQual" id="ServiceQual" class="formselect">
+
+                        <option disabled selected value="0" > SELECIONE UMA OPÇÃO </option>
+                        <option value="0.3" >30% - INCRIVEL</option>
+                        <option value="0.2" >20% - BOM</option>
+                        <option value="0.15" >15% - ACEITÁVEL</option>
+                        <option value="0.10" >10% - MAIS OU MENOS</option>
+                        <option value="0.05" >05% - RUIM</option>
+                    
+                    </select>
+                </p>
+                <label for="People" > 
+                    <p> Quantas Pessoas vão dividir a conta? </p> 
+                </label>
+                <p> 
+                    <input type="text" inputmode="numeric" placeholder="1" name="People" id="People"  class="forminput">
+                    Pessoa(s).  
+                </p>
+                <button type="submit" name="Enviar" id="Enviar" class="button"> Calcular!</button>
+                </form> 
+            </div>
+        </div>
+
+    </body> 
+
+
+</html>
