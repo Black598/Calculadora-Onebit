@@ -1,7 +1,7 @@
 @import url(https://fonts.gogleapis.com/css?familyLato:300,400,700|PT++Mono);
 
 :root {
-    --pri-color: lightcoral;
+    --pri-color: rgb(212, 67, 241);
     --sec-color: dimgray;
     --ter-color: gainsboro;
     --qua-color: #f7f7f7;
@@ -95,5 +95,11 @@ text-align: center;
 
   background-color: var(--pri-color);
   box-shadow: 2px 4px #313131;
+
+}
+#totalTips {
+  font-size: 20px;
+  margin-top: 5px;
+  text-align: center;
 
 }

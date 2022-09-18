@@ -19,15 +19,15 @@
                         <p> Quanto ficou a conta? </p>
                     </label>
                     <p> 
-                        R$ <input type="text" inputmode="numeric" placeholder="100,00" name="Bill" id="Bill" class="forminput">
+                        R$ <input type="number" inputmode="numeric" placeholder="100,00" name="Bill" id="Bill" class="forminput" required>
                     </p>
                     <label for="ServiceQual">
                         <p>  Como foi seu serviço? </p>
                     </label>
                     <p>
-                        <select name="ServiceQual" id="ServiceQual" class="formselect">
+                        <select name="ServiceQual" id="ServiceQual" class="formselect" required>
 
-                        <option disabled selected value="0" > SELECIONE UMA OPÇÃO </option>
+                        <option disabled selected value="0"  > SELECIONE UMA OPÇÃO </option>
                         <option value="0.3" >30% - INCRIVEL</option>
                         <option value="0.2" >20% - BOM</option>
                         <option value="0.15" >15% - ACEITÁVEL</option>
@@ -40,14 +40,20 @@
                     <p> Quantas Pessoas vão dividir a conta? </p> 
                 </label>
                 <p> 
-                    <input type="text" inputmode="numeric" placeholder="1" name="People" id="People"  class="forminput">
+                    <input type="number" placeholder="1" name="People" id="People"  class="forminput" required>
                     Pessoa(s).  
                 </p>
-                <button type="submit" name="Enviar" id="Enviar" class="button"> Calcular!</button>
+                <button type="submit" name="submit" id="submit" class="button"> Calcular!</button>
                 </form> 
+            </div>
+            <div id="totalTips">
+                Gorjeta total:
+                R$ <span id="tip">0,00</span>
+                <p id="each"> cada </p>
             </div>
         </div>
 
+        <script type="text/javascript" src="script/script.js"> </script>
     </body> 
 
 
